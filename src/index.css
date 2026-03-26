@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.arabic-text {
+  font-family: 'Traditional Arabic', 'Scheherazade New', 'Amiri', serif;
+  direction: rtl;
+  line-height: 2.2;
+}
